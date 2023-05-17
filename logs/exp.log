@@ -1,0 +1,30 @@
+[05/17 21:56:48] exp INFO: Using cuda:1 for training.
+[05/17 21:56:49] exp INFO: Random seed set to 123.
+[05/17 21:56:50] exp INFO: GCN(
+  (layers): ModuleList(
+    (0): ConvLayer(
+      (layer): GCNConv(8415, 512)
+      (batchnorm): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (act): PReLU(num_parameters=1)
+    )
+    (1): ConvLayer(
+      (layer): GCNConv(512, 512)
+      (batchnorm): BatchNorm1d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (act): PReLU(num_parameters=1)
+    )
+  )
+)
+[05/17 21:56:50] exp INFO: Number of parameter: 4.57M
+[05/17 21:56:50] exp INFO: Satrt training
+[05/17 21:56:52] exp INFO: [Epoch    1/ 100] loss=-336.2979, test_acc=91.99±0.07 [best_test_acc: 91.99±0.07 at epoch 1]
+[05/17 21:56:54] exp INFO: [Epoch   10/ 100] loss=-417.5266, test_acc=95.05±0.03 [best_test_acc: 95.05±0.03 at epoch 10]
+[05/17 21:56:57] exp INFO: [Epoch   20/ 100] loss=-482.4460, test_acc=95.62±0.03 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:00] exp INFO: [Epoch   30/ 100] loss=-531.6953, test_acc=95.40±0.10 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:02] exp INFO: [Epoch   40/ 100] loss=-573.3308, test_acc=95.44±0.09 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:05] exp INFO: [Epoch   50/ 100] loss=-606.1366, test_acc=95.41±0.04 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:08] exp INFO: [Epoch   60/ 100] loss=-637.4714, test_acc=95.50±0.08 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:10] exp INFO: [Epoch   70/ 100] loss=-666.0142, test_acc=95.50±0.05 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:13] exp INFO: [Epoch   80/ 100] loss=-690.4442, test_acc=95.48±0.03 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:16] exp INFO: [Epoch   90/ 100] loss=-713.9264, test_acc=95.46±0.04 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:18] exp INFO: [Epoch  100/ 100] loss=-738.8195, test_acc=95.39±0.03 [best_test_acc: 95.62±0.03 at epoch 20]
+[05/17 21:57:18] exp INFO: Best test acc: 95.62±0.03 at epoch 20: [0.9561877250671387, 0.9559340476989746, 0.9567313194274902, 0.955970287322998, 0.955970287322998]

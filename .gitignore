@@ -4,6 +4,7 @@
 tmp/
 *.txt
 !requirements.txt
+!logs/exp.log
 data/
 mask/
 
@@ -59,7 +60,8 @@ coverage.xml
 *.pot
 
 # Django stuff:
-*.log
+*.
+
 local_settings.py
 
 # Flask stuff:
