@@ -1,6 +1,10 @@
 ## BlockGCL  (Under review)
 This is a PyTorch implementation of BlockGCL from the paper "Scaling Up, Scaling Deep: Blockwise Graph Contrastive Learning".
 
+<div align="center">
+  <img src="imgs/blockgcl.png"/>
+</div>
+
 ## Requirements
 - numpy==1.21.5
 - torch==1.12.0
